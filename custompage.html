@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'nonce-RANDOM_NONCE_VALUE'">
+    <link rel="stylesheet" href="custompage.css">
+    <title>Tracker</title>
+  </head>
+  <body>
+    <p class="app-header">Face Tracker</p>
+    <div id="videoContainer">
+      <video id="videoElement" autopictureinpicture autoplay></video>
+    </div>
+    <div class="button">
+      <button class="btn" id="pip">PIP Mode</button>
+    </div>
+    <script src="face-api.min.js"></script>
+    <script src="custompage.js"></script>
+  </body>
+</html>
