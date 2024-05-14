@@ -50,7 +50,7 @@ async function openFloatingPopup() {
   );
   chrome.windows.create(
     {
-      url: chrome.runtime.getURL("custompage.html"),
+      url: chrome.runtime.getURL("track.html"),
       type: "popup",
       width: popupWidth,
       height: popupHeight,
